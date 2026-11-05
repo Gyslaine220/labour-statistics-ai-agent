@@ -1,21 +1,21 @@
 
 import os
-
 import pandas as pd
-
-import pandas as pd
+from pathlib import Path
 
 
 def load_data(filepath):
 
-    if filepath.endswith(".dta"):
+    filepath = Path(filepath)
+
+    if filepath.suffix == ".dta":
         return pd.read_stata(filepath)
 
-    elif filepath.endswith(".csv"):
+    elif filepath.suffix == ".csv":
         return pd.read_csv(filepath)
 
     raise ValueError(
-        "Unsupported file format"
+        f"Unsupported file format: {filepath.suffix}"
     )
 
 
