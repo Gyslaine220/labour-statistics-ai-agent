@@ -1,6 +1,10 @@
-
-_ _pycache_ _/
-*.pyc
 .venv/
-.env/
-.DS_Store
+
+__pycache__/
+*.pyc
+
+.vscode/
+
+outputs/
+
+.pytest_cache/
