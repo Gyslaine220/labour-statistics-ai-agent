@@ -49,7 +49,7 @@ def ask_agent(question):
             df["status1"] == "Unemployed", "weight2"
         ].sum()
 
-        labour_force = employed + unemployed
+        labour_force = employed + unemployed 
 
         unemployment_rate = calculate_unemployment_rate(
             unemployed,
