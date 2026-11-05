@@ -2,6 +2,16 @@
 
 ## About the Project
 
+
+A FastAPI-powered labour market analytics application that computes labour market indicators from Labour Force Survey data, including:
+
+- Labour Force Participation Rate (LFPR)
+- Unemployment Rate
+- Employment-to-Population Ratio
+- Youth NEET Rate
+
+Deployed on Vercel.
+
 The Labour Statistics AI Agent is a Python-based project that aims to use artificial intelligence and data analysis to answer questions about labour statistics.
 
 The project is being developed to explore how AI can make labour-market data more accessible, understandable, and useful for analysis and decision-making. It will combine labour-force data, Python-based statistical analysis, and AI agent capabilities to help users explore indicators such as employment, unemployment, labour force participation, and youth unemployment.
